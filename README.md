@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/sberaconnects/k8s-cicd-demo/actions/workflows/deploy.yml/badge.svg)
+
 # 🚀 CI/CD Demo: Docker + GitHub Actions + Kubernetes
 
 This project demonstrates a full DevOps pipeline:
@@ -49,3 +51,14 @@ to retrieve the EXTERNAL-IP and access your running app.
 ---
 
 Happy shipping! 🚀
+---
+
+## 📽️ Demo
+
+![CI/CD to Kubernetes Demo](./assets/devops-k8s-cicd-demo.gif)
+
+---
+
+## 📸 Visual Overview
+
+![DevOps Series Carousel](./assets/devops-series-part7-carousel.png)
