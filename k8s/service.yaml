@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: cicd-demo-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: cicd-demo
   ports:

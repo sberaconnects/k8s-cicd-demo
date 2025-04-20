@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cicd-demo
+  labels:
+    app: cicd-demo
 spec:
   replicas: 1
   selector:
@@ -13,7 +15,7 @@ spec:
         app: cicd-demo
     spec:
       containers:
-      - name: cicd-demo
+      - name: nginx
         image: DOCKER_USERNAME/cicd-demo:latest
         ports:
         - containerPort: 80
