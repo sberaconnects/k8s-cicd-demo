@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: DOCKER_USERNAME/cicd-demo:latest
+        image: sberaconnects/cicd-demo:latest
         ports:
         - containerPort: 80
